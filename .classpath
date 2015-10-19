@@ -17,5 +17,6 @@
 	<classpathentry kind="lib" path="/home/laouni_ngoue/apache-tomcat-8.0.15/lib/annotations-api.jar"/>
 	<classpathentry kind="lib" path="/home/laouni_ngoue/apache-tomcat-8.0.15/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="/home/laouni_ngoue/apache-tomcat-8.0.15/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/home/laouni_ngoue/apache-tomcat-8.0.15/lib/catalina.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
