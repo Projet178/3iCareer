@@ -36,4 +36,13 @@
    		
    </package>
    
+   <package name="helloworld" extends="struts-default">
+     
+      <action name="hello" class="exemple.HelloWorldAction" method="execute">
+            <result name="success">/HelloWorld.jsp</result>
+            <result name="error">/AccessDenied.jsp</result>
+      </action>
+      
+   </package>
+   
 </struts>
