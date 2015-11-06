@@ -1,0 +1,32 @@
+.entreprise-item{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #e7e7e7;
+    color: #555
+}
+
+div.entreprise-item:hover{    
+    box-shadow: 0px 0px 2px 0px #656565;
+    //border: 1px solid #57A6BF;    
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -ms-transition:0.5s;
+    -o-transition:0.5s;
+    transition:0.5s
+}
+
+.company-logo2 img{
+    padding: 10px;
+    border: 1px solid #e7e7e7 ;
+    
+}
+
+div.entreprise-item div{
+    margin: 0px;
+    padding: 0px;
+}
+
+.company-description h2{
+    font-weight: bolder
+}

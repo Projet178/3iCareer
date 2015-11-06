@@ -1,0 +1,82 @@
+.page-content{
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+}
+
+.white-box{
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e7e7e7;
+    color: #555;
+    margin: 10px 0px;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0px;
+}
+.white-box {
+    color: #555
+}
+
+.offer-description p{
+    margin-top: 20px;
+}
+
+
+span{
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica, Arial", "sans-serif";
+}
+
+h1, h2, h3, label{
+    color: #1f718b;
+}
+
+.offer-logo img{
+    padding: 10px;
+    border: 1px solid #e7e7e7 ;
+}
+
+.company-logo img:hover{
+    border: 1px solid #FFA4A7;
+    -webkit-transition:0.4s;
+    -moz-transition:0.4s;
+    -ms-transition:0.4s;
+    -o-transition:0.4s;
+    transition:0.4s
+}
+
+.offer-title{
+    padding: 15px 15px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #1f718b;
+    //background-color: #DE6A6A;
+    //color: white;
+}
+
+
+a.btn-postuler:hover, a.btn-postuler:visited{ 
+    color: white;
+    text-decoration: none;
+}
+
+a.btn-postuler:hover{
+    border-color: #BC5B5B;
+    background-color: #BC5B5B;
+    border: 1px solid #BC5B5B;
+}
+
+a.btn-postuler{  
+    display: inline-block;
+    color: white;
+    margin: 10px 0px;
+    padding: 12px 20px;
+    background-color: #DE6A6A; 
+    border: 1px solid #DE6A6A;
+}
+
+
+
+
+

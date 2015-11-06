@@ -7,7 +7,8 @@
 			<div class="row" style="background: #1f718b;">
 				<div class="col-xs-6">
 					<div id='logo'>
-						<a href="${pageContext.request.requestURI}"><img alt="3iCareer" height="60"
+						<a href="${pageContext.request.requestURI}"><img
+							alt="3iCareer" height="60"
 							src="${pageContext.request.contextPath}/img/logo_3icareer3.png" /></a>
 					</div>
 				</div>
@@ -17,10 +18,12 @@
 						<button class='btn recruiters'>
 							<a href="#">Recruteurs</a>
 						</button>
-						<button class='btn signin' data-target='#sign-in-modal'
+						<button class='btn signin' data-target='#connexion-modal'
 							data-toggle='modal'>
 							<a href="#">Étudiants</a>
 						</button>
+						<button class='btn signup' data-target='#sign-up-modal'
+							data-toggle='modal'>Inscription</button>
 					</div>
 				</div>
 				<!--<div class='header-container-inner'>-->
@@ -34,9 +37,9 @@
 	<div class="l-nav ">
 		<nav class='container nav-menu'>
 			<ul class='list-inline '>
-				<li class='nav-is-active nav-item' id='home_tab'>
+				<li class='nav-is-active' id='home_tab'>
 					<div class='main-nav'>
-						<a class="nav-link" href="Accueil"><span>ACCUEIL</span> </a>
+						<a class="nav-link" href="Accueil">ACCUEIL </a>
 					</div>
 				</li>
 				<li class='nav-item' id='nav_companies_tab'>
@@ -56,7 +59,7 @@
 				</li>
 				<li class='nav-item' id='nav_events_tab'>
 					<div class='main-nav'>
-						<a class="nav-link" href="Evenements">Evènements</a>
+						<a class="nav-link" href="Evenements">Événements</a>
 					</div>
 				</li>
 			</ul>

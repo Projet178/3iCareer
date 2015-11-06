@@ -2,7 +2,7 @@
 <html>
 <head>
     <!--<META HTTP-EQUIV="Refresh" CONTENT="0;URL=contacts/showLogin.action">-->
-    <META HTTP-EQUIV="Refresh" CONTENT="0;URL=fr/Accueil">
+    <META HTTP-EQUIV="Refresh" CONTENT="0;URL=Accueil">
 </head>
 <body>
 <p>Chargement ...</p>
