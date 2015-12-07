@@ -32,18 +32,6 @@
    		
    </package>
    
-   <package name="commun" namespace="/offre" extends="struts-default">
-   
-   		<action name="detailOffre">
-   			<result>/fr/detailOffre.jsp</result>
-   		</action>
-   		
-   </package>
-   
-   <package name="commun" namespace="/offre" extends="struts-default">
-   		
-   </package>
-   
    <package name="etudiant" namespace="/etudiant" extends="struts-default">
    		<action name="dashboard">
    			<result>/fr/etudiant/persoEtudiant.jsp</result>
@@ -52,6 +40,12 @@
    		<action name="entreprises" class="controller.visiteurs.EntreprisesAction">
    			<result>/fr/entreprise.jsp</result>
    		</action>
+   		 <action name="Inscription"
+                     class="controller.etudiant.InscriptionAction"
+                method="execute">
+                 <result>/fr/etudiant/inscription.jsp</result>
+                 
+        </action>
    </package>
    
    <package name="helloworld" extends="struts-default">
@@ -61,6 +55,8 @@
             <result name="error">/AccessDenied.jsp</result>
       </action>
       
+      
    </package>
+
    
 </struts>

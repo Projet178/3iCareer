@@ -37,7 +37,7 @@
 						<div class='form-group'>
 							<label class="hidden"> Email * </label>
 							<div class="form-group email required student_profile_user_email">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
 								<input aria-required="true"
 									class="string email required form-control"
 									id="student_profile_user_attributes_email"
@@ -49,7 +49,7 @@
 							<label class="hidden"> Mot de passe * </label>
 							<div
 								class="form-group password optional student_profile_user_password">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-lock"></span>
 								<input class="password optional form-control"
 									id="student_profile_user_attributes_password"
 									name="passwd"
@@ -109,7 +109,7 @@
 						<div class='form-group'>
 							<label class="hidden"> Email * </label>
 							<div class="form-group email required student_profile_user_email">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
 								<input aria-required="true"
 									class="string email required form-control"
 									id="student_profile_user_attributes_email"
@@ -154,7 +154,7 @@
 				<div class='padding' id='create-account'>
 					<h2 class='txt-color'>Inscription en tant qu'étudiant</h2>
 
-					<form accept-charset="UTF-8" action="/fr/profils"
+					<form accept-charset="UTF-8" action="etudiant/Inscription"
 						class="simple_form new_student_profile" id="new_student_profile"
 						method="post" role="form">
 
@@ -162,21 +162,21 @@
 							<label class="hidden"> INE * </label>
 							<div
 								class="form-group string required student_profile_user_first_name">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-user"></span>
 								<input aria-required="true" class="string required form-control"
 									id="student_profile_user_attributes_first_name"
-									name="student_profile[user_attributes][first_name]"
-									required="required" type="number" placeholder="INE" />
+									name="etudiantINE"
+									required="required" type="text" placeholder="INE" />
 							</div>
 						</div>
 						<div class='form-group'>
 							<label class="hidden"> Nom * </label>
 							<div
 								class="form-group string required student_profile_user_first_name">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-user"></span>
 								<input aria-required="true" class="string required form-control"
 									id="student_profile_user_attributes_first_name"
-									name="student_profile[user_attributes][first_name]"
+									name="etudiantNom"
 									required="required" type="text" placeholder="Nom" />
 							</div>
 						</div>
@@ -184,21 +184,21 @@
 							<label class="hidden"> Prénom * </label>
 							<div
 								class="form-group string required student_profile_user_last_name">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-user"></span>
 								<input aria-required="true" class="string required form-control"
 									id="student_profile_user_attributes_last_name"
-									name="student_profile[user_attributes][last_name]"
+									name="etudiantPrenom"
 									required="required" type="text" placeholder="Prénom" />
 							</div>
 						</div>
 						<div class='form-group'>
 							<label class="hidden"> Email * </label>
 							<div class="form-group email required student_profile_user_email">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-envelope"></span>
 								<input aria-required="true"
 									class="string email required form-control"
 									id="student_profile_user_attributes_email"
-									name="student_profile[user_attributes][email]"
+									name="etudiantEmail"
 									required="required" type="email"
 									placeholder="Adresse mail (xxx@3il.fr)" />
 							</div>
@@ -209,10 +209,10 @@
 							</label>
 							<div
 								class="form-group password optional student_profile_user_password">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-lock"></span>
 								<input class="password optional form-control"
 									id="student_profile_user_attributes_password"
-									name="student_profile[user_attributes][password]"
+									name="etudiantPassword"
 									type="password" placeholder="Mot de passe (min. 6 caractères)" />
 							</div>
 						</div>
@@ -222,10 +222,10 @@
 							</label>
 							<div
 								class="form-group password optional student_profile_user_password_confirmation">
-								<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+								<span class="input-group-addon glyphicon glyphicon-lock"></span>
 								<input class="password optional form-control"
 									id="student_profile_user_attributes_password_confirmation"
-									name="student_profile[user_attributes][password_confirmation]"
+									name="etudiantConfirmPassword"
 									type="password" placeholder="Confirmation mot de passe" />
 							</div>
 						</div>
